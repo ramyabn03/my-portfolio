@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramya Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/jpeg" />
+
+    <!-- Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!---- CSS  ----->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <aside class="scroll-up">
+      <a href="#home"><i class="bx bxs-chevrons-up"></i></a>
+    </aside>
+
+    <header class="header">
+      <a href="#" class="logo"><span>R</span>amya.</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#aboutme">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-------Home section ---------->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Ramya BN</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Passionate web developer with expertise in building responsive,
+          user-friendly websites and applications using the front-end
+          technologies and web standards.
+        </p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/ramya-b-n-a1200b224"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/ramyabn03"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://instagram.com/ramya_nagaraj_?igshid=ZDdkNTZiNTM="
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="https://www.facebook.com/ramya.nagaraj.18400"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+        </div>
+        <a
+          download="Ramya BN-Resume"
+          href="images/Ramya BN- Resume.pdf"
+          class="btn"
+          >Download CV <i class="bx bxs-download"></i
+        ></a>
+      </div>
+      <div class="home-img">
+        <img src="images/home.png" alt="My Photo" />
+      </div>
+    </section>
+
+    <!-- AboutMe Section -->
+    <section class="aboutme" id="aboutme">
+      <div class="aboutme-img">
+        <img src="images/abouti.png" alt="My Photo" />
+      </div>
+
+      <div class="aboutme-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <!-- <h3>Frontend Developer!</h3> -->
+        <p>
+          As a software engineer with 8 months of dedicated training in frontend
+          development using React, I possess a strong foundation in modern web
+          technologies and a proven ability to create dynamic and engaging user
+          interfaces.
+        </p>
+        <!-- <a href="#" class="btn">Read More</a> -->
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('experience')">
+            Experience
+          </p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+          <p class="tab-links" onclick="opentab('strengths')">Strengths</p>
+          <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+        </div>
+        <div class="tab-contents active-tab" id="experience">
+          <ul>
+            <li>
+              <span>Software Engineer L1 at Accubits Technologies.</span
+              ><br /><i>June 2022 - Feb 2023 </i><br /><i>Trivandrum, Kerala</i
+              ><br />
+              Trained in front-end technologies such as HTML, CSS, and
+              JavaScript, with extensive experience developing responsive web
+              applications using React.
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li>
+              <span>M S Ramaiah University of Applied Sciences</span><br /><i
+                >Bengaluru, Karnataka</i
+              ><br />B Tech in Computer Science and Engineering<br /><i>
+                Aug 2018 - May 2022</i
+              ><br />
+              CGPA - 9.4
+            </li>
+            <li>
+              <span>Kyathi Girls PU College</span><br /><i
+                >Hoskote, Bengaluru Rural, Karnataka</i
+              ><br />12th / 2nd PUC<br /><i> June 2017 - May 2018</i><br />
+              Percentage - 93.83%
+            </li>
+            <li>
+              <span>Kroot Memorial School</span><br /><i
+                >Hoskote, Bengaluru Rural, Karnataka</i
+              ><br />10th ICSE<br /><i> June 2015 - March 2016</i><br />
+              Percentage - 79.33%
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="strengths">
+          <ul>
+            <li>Fast Learner</li>
+            <li>Ability to work Collaboratively</li>
+            <li>Effective communicator</li>
+            <li>Ability to Learn from Mistakes</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="hobbies">
+          <ul>
+            <li>Sketching / Drawing</li>
+            <li>Capturing Moments</li>
+            <li>Experimental Cooking</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-logos">
+        <h3>Programming Languages:</h3>
+        <div class="grid">
+          <p><img src="images/html.png" alt="Logo" /><br />HTML5</p>
+          <p><img src="images/css3.png" alt="Logo" /><br />CSS3</p>
+          <p>
+            <i class="bx bxl-javascript" style="color: #f0db4f"></i
+            ><br />Javascript
+          </p>
+          <p><img src="images/python.png" alt="Logo" /><br />Python</p>
+          <p><img src="images/c.png" alt="Logo" /><br />C</p>
+        </div>
+        <h3>FrameWorks & Databases:</h3>
+        <div class="grid">
+          <p><img src="images/react.png" alt="Logo" /><br />React JS</p>
+          <p><img src="images/mysql.png" alt="Logo" /><br />MySQL</p>
+        </div>
+        <h3>Applications & Tools:</h3>
+        <div class="grid">
+          <p><img src="images/git.png" alt="Logo" /><br />Git</p>
+          <p>
+            <i class="bx bxl-visual-studio" style="color: #0078d7"></i
+            ><br />Visual Studio Code
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="projects" id="projects">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="projects-container">
+        <div class="project-details-box">
+          <div class="project-box">
+            <img src="images/saasup.PNG" alt="" />
+            <div class="project-layer">
+              <a href="https://github.com/ramyabn03/Saasup"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a href="https://ramyabn-saasup.netlify.app"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+          <div class="p-details">
+            <p class="tech-stack">HTML | CSS | Javascript | React</p>
+            <h4>SaaSup</h4>
+            <p>
+              Saasup is a technically proficient and bright Ecommerce website
+              for SaaS based-companies.
+              <span class="read-more-text"
+                >It is jam-packed with designs that are highly favoured by SaaS
+                product companies. It was designed with React, and I included
+                routers for navigation and responsive design for various
+                devices. In addition, I added a number of other features to the
+                project, including a slider, tab switching, and a dropdown
+                menu.</span
+              >
+            </p>
+            <span class="read-more-btn">Read More...</span>
+          </div>
+        </div>
+
+        <div class="project-details-box">
+          <div class="project-box">
+            <img src="images/hekto.PNG" alt="" />
+            <div class="project-layer">
+              <a href="https://github.com/ramyabn03/E-commerce-website-HEKTO"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a href="https://hekto-furniture-shopping.netlify.app/"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+          <div class="p-details">
+            <p class="tech-stack">HTML | CSS | Javascript | React</p>
+            <h4>Hekto</h4>
+            <p>
+              Hekto is a clean and modern E-commerce website (Furniture Shopping
+              Website).
+              <span class="read-more-text"
+                >It was created with React, and I used routers for navigation
+                and made the design responsive for different devices. In
+                addition, I added several other features to the project, such as
+                a slider, pagination, and data retrieval.</span
+              >
+            </p>
+            <span class="read-more-btn">Read More...</span>
+          </div>
+        </div>
+
+        <div class="project-details-box">
+          <div class="project-box">
+            <img src="images/hcollections.PNG" alt="" />
+            <div class="project-layer">
+              <a
+                href="https://github.com/ramyabn03/Shopping-Website--Using-React"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a href="https://ramyabn-homecollections.netlify.app/"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+          <div class="p-details">
+            <p class="tech-stack">HTML | CSS | Javascript | React</p>
+            <h4>Home Collections</h4>
+            <p>
+              Home Collections is a neat and contemporary online store.
+              <span class="read-more-text"
+                >It was created with React, and I integrated routers, API calls,
+                and Redux (cart state management) to create a seamless user
+                experience. I also made sure the website was fully responsive,
+                so it looks great on all devices. Additionally, I implemented
+                other functionalities such as skeleton loader, search filters to
+                enhance the user's experience.</span
+              >
+            </p>
+            <span class="read-more-btn">Read More...</span>
+          </div>
+        </div>
+
+        <div class="project-details-box">
+          <div class="project-box">
+            <img src="images/omnifood.PNG" alt="" />
+            <div class="project-layer">
+              <a href="https://github.com/ramyabn03/Omnifood"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a href="https://omnifood-ramyabn.netlify.app/"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+          <div class="p-details">
+            <p class="tech-stack">HTML | CSS | Javascript</p>
+            <h4>Omnifood</h4>
+            <p>
+              Omnifood is a clean, stylish, and responsive online food ordering
+              website.
+              <span class="read-more-text">
+                The website is designed to adapt to different screen sizes and
+                resolutions, providing an optimal user experience across all
+                devices. With the use of modern CSS techniques such as gridbox
+                and Media Queries, I was able to create a layout that is both
+                visually appealing. in addition to that, i added smooth
+                scrolling for better user experience.</span
+              >
+            </p>
+            <span class="read-more-btn">Read More...</span>
+          </div>
+        </div>
+
+        <div class="project-details-box">
+          <div class="project-box">
+            <img src="images/storiesw.PNG" alt="" />
+            <div class="project-layer">
+              <a href="https://github.com/ramyabn03/Stories-World"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a href="https://ramyabn-storiesworld.netlify.app/"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+          <div class="p-details">
+            <p class="tech-stack">HTML | CSS | Javascript | React | Firebase</p>
+            <h4>Stories World</h4>
+            <p>
+              Stories World is website where users can read and add stories.
+              <span class="read-more-text"
+                >It was built using react where users can login with basic
+                validation, ensuring that users provide valid credentials before
+                being granted access to the application. Once a user has
+                successfully logged in, they are able to read and add stories to
+                the application. These stories are stored in Firebase (used as
+                database) in a structured way, making it easy to retrieve and
+                display them on the website. Users can also add their own
+                stories by filling out a form, which is then saved to the
+                database for others to read. Auth-context is used for
+                authentication.</span
+              >
+            </p>
+            <span class="read-more-btn">Read More...</span>
+          </div>
+        </div>
+
+        <div class="project-details-box">
+          <div class="project-box">
+            <img src="images/text.PNG" alt="" />
+            <div class="project-layer">
+              <a href="https://github.com/ramyabn03/Text-editor"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a href="https://texteditor-ramyabn.netlify.app/"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+          <div class="p-details">
+            <p class="tech-stack">HTML | CSS | Javascript | React</p>
+            <h4>Text Editor</h4>
+            <p>
+              Application built to edit text without using any external
+              libraries.
+              <span class="read-more-text"
+                >The text editor has basic features such as text formatting,
+                font styles, and undo/redo functionality, adding list styling,
+                changing font color and background color, inserting links and
+                images.</span
+              >
+            </p>
+            <span class="read-more-btn">Read More...</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <div class="contact-details">
+        <p>
+          Thank you for visiting my portfolio, I look forward to hearing from
+          you!
+        </p>
+        <div class="contact-link">
+          <i class="bx bxs-location-plus"></i>Hoskote, Bengaluru Rural District,
+          Karnataka - 562122
+        </div>
+        <a href="tel:9380023115" class="contact-link">
+          <i class="bx bxs-phone-call"></i>+91 9380023115
+        </a>
+        <a href="mailto: ramyabn369@gmail.com" class="contact-link">
+          <i class="bx bxs-envelope"></i>ramyabn369@gmail.com
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 | Created by <span>Ramya BN</span>.</p>
+      </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    <!-- Javascript file -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
