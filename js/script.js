@@ -64,7 +64,7 @@ ScrollReveal().reveal(".home-content p, .aboutme-content", {
 
 // Typed js- Multiple text animation
 const typed = new Typed(".multiple-text", {
-  strings: ["Frontend Developer", "Software Engineer"],
+  strings: ["Senior Software Engineer", "Frontend Developer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
